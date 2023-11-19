@@ -19,8 +19,8 @@ def first_test():
 
     # Поиск элементов и присваивание к переменным.
     input_username = driver.find_element("xpath", "//*[@id=\"user-name\"]")
-    input_password = driver.find_element("xpath","//*[@id=\"password\"]")
-    login_button = driver.find_element("xpath","//*[@id=\"login-button\"]")
+    input_password = driver.find_element("xpath", "//*[@id=\"password\"]")
+    login_button = driver.find_element("xpath", "//*[@id=\"login-button\"]")
 
     # Действия с формами
     input_username.send_keys("standard_user")
